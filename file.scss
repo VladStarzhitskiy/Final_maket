@@ -6,7 +6,7 @@
 // font-family: 'Nanum Gothic', sans-serif;
 
 .wrapper{
-    max-width: 1240px;
+    // max-width: 1240px;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -135,7 +135,7 @@
             font-family: 'Nanum Gothic', sans-serif;
             font-size: 26px;
             color: #ff4b5a;
-            margin: 0 0 14px;
+            margin: 15px 0 14px;
         }
         .two{
             font-family: 'Nanum Gothic', sans-serif;
@@ -665,7 +665,7 @@
         flex-basis: 100%;
         display: flex;
         justify-content: flex-end;
-        padding: 0 244px 100px 244px;
+        padding: 0 295px 100px 244px;
             
             a{
                 width: 165px;
@@ -707,6 +707,325 @@
         }
        
     }
+}
+
+
+
+@media (max-width: 768px){
+    .wrapper{
+        width: 768px;
+        flex-basis: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        
+        .section1{
+            display: flex;
+            flex-wrap: wrap;
+            flex-basis: 100%;
+            justify-content: center;
+            align-items: center;
+            p{
+                flex-basis: 100%;
+                padding: 0;
+                justify-content: center;
+                margin-bottom: 5px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 900;
+                font-size: 44px;
+            }
+            li.last{
+                padding: 0;
+            }
+
+            .line{
+                margin: 10px;
+            }
+        }
+
+        .section2{
+            display: flex;
+            flex-wrap: wrap;
+            flex-basis: 100%;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+
+            p.text_top{
+                margin-top: 80px;
+            }
+            p.text_bottom{
+                text-align: center;
+            }
+            a.go-to-bottom{
+                margin: 0;
+                margin-top: auto;
+            }
+        }
+        .section3{
+            display: flex;
+            flex-wrap: wrap;
+            flex-basis: 100%;
+            justify-content: center;
+            align-items: center;
+            padding-left: 270px;;
+            background: url(jpg/RightMac.png)no-repeat left;
+            height: 500px;
+            p.one{
+                margin-top: 15px;
+            }
+            p.three{
+                margin: 0;
+            }
+            .work{
+                margin: 30px;
+            }
+        }
+
+        .section4{
+            padding: 0 75px;
+        }
+        
+        .section6{
+            .pictures{
+          background: url(jpg/ТорговыеМарки2.png)no-repeat center;
+             }
+        }
+
+        .section8{
+            .bottom{
+                margin-bottom: 30px;
+            }
+        }
+
+        .section10{
+            padding: 0;
+        }   
+
+        .section11{
+            padding: 50px 295px 50px 244px;
+        }
+
+    }
+}
+
+
+@media (max-width: 320px){
+    .wrapper{
+        width: 320px;
+        flex-basis: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    
+        .section1{
+            width: 320px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-basis: 100%;
+            justify-content: center;
+            align-items: center;
+            p{
+                justify-content: center;
+                text-align: center;
+            }
+            ul{
+                flex-direction: column;
+                line-height: 24px;
+                padding: 0;
+            }
+        }
+
+        .section2{
+            display: flex;
+            flex-wrap: wrap;
+            flex-basis: 100%;
+            justify-content: center;
+            align-items: center;
+            min-height: 400px;
+
+            p.text_top{
+                font-size: 28px;
+                margin: 40px 5px 15px 5px;
+                text-align: center;
+            }
+        }
+
+        .section3{
+            display: flex;
+            flex-wrap: wrap;
+            flex-basis: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            background: #ffffff;
+            height: 700px;
+            p.one{
+                margin-top: 15px;
+                text-align: center;
+            }
+            p.two{
+                margin: 15px 0 15px;
+                line-height: 30px;
+            }
+            p.three{
+                margin: 0;
+            }
+            p.four{
+                margin: 15px 0 15px;
+                font-size: 15px;
+            }
+            .work{
+                margin: 15px;
+            }
+        }
+
+        .section4{
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            .circle{
+                margin-top: 35px;
+            }
+        }
+
+        .section5{
+            p.title{
+                margin-top: 50px;
+            }
+            .circle1{
+                margin-top: 50px;
+            }
+            .circle2{
+                margin-top: 50px;
+            }
+            .circle3{
+                margin-top: 50px;
+            }
+            .circle4{
+                margin-top: 50px;
+            }
+           
+        }
+        
+        .section6{
+            p{
+                text-align: center;
+                margin-top: 50px;
+                font-size: 34px;
+            }
+            .pictures{
+                height: 260px;
+                background: url(jpg/Колонка_Лого.png)no-repeat center;
+                padding: 15px 0 15px;
+            }
+
+        }
+        
+        .section7{
+            display: flex;
+            //flex-wrap: wrap;
+            flex-basis: 100%;
+            width: 320px;
+            justify-content: center;
+            padding: 5px;
+            
+            .title .title1{
+                margin: 50px 0 20px;
+                font-size: 34px;
+            }
+            .text{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 20px 0;
+            } 
+        }
+
+        .section8{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 5px;
+        }
+
+        .section9{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 5px;
+            .title{
+                font-size: 34px;
+                text-align: center;
+                margin-top: 50px;
+            }
+            .footer{
+                height: 80px;
+            }
+        }
+
+        .section10{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 5px;
+            width: 320px;
+            p{
+                margin-top: 50px;
+            }
+            .form{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-top: 40px;
+                .name{
+                    width: 300px;
+                }
+                .mail{
+                    width: 300px;
+                }
+                label{
+                    margin: 0;
+                }
+                input{
+                    margin: 0;
+                }
+            }
+            .message{
+                width: 300px;
+                margin-left: 5px;
+            }
+
+        }
+
+        .section11{
+            display: flex;
+            justify-content: center;
+            padding: 30px 0;
+        
+        }
+
+        .section12{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 5px;
+            width: 320px;
+            .text{
+                padding: 20px 0 0;
+                text-align: center;
+            }
+            .logo{
+                width: 320px;
+                height: 100px;
+                flex-basis: 100%;
+                background: url(jpg/соцсети.png)no-repeat center;
+            }
+        }
+
+        
 
 
 
@@ -721,4 +1040,7 @@
 
 
 
+
+
+    }
 }
